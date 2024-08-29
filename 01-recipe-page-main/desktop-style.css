@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+:root {
+    --stone1: hsl(30, 54%, 90%);
+    --stone2: hsl(30, 18%, 87%);
+    --gray1: hsl(30, 10%, 34%);
+    --gray2: hsl(24, 5%, 18%);
+    --brown: hsl(14, 45%, 36%);
+    --rose1: hsl(330, 100%, 98%);
+    --rose2: hsl(332, 51%, 32%);
+}
+
+@media screen and (min-width: 768px) {
+
+    html {
+        background-color: var(--stone1);
+    }
+
+    body {
+        width: 900px;
+        background-color: white;
+        border-radius: 15px;
+        margin: 60px auto;
+        padding-top: 40px;
+    }
+
+    img {
+        width: 800px;
+        display: block;
+        margin: 0px auto 40px;
+        border-radius: 10px;
+    }
+}
